@@ -41,6 +41,9 @@ fn do_calc(notation: &String) -> Option<u8> {
                 if right == 0 { return None; } // Handle division by zero!
                 stack.push(left / right);
             }
+            ' ' => {
+                continue;
+            }
             _ => return None,
         }
     }
