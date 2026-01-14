@@ -1,12 +1,14 @@
-# reverse polish notation 
-I read a litle about it and decided to write a quick cli in rust to practice the notation and my rust abilities.
+# Reverse Polish Notation
 
-## how to run 
-you need the rust ambient instaled
-then run 
-```bash
-cargo run '{notation}'
+I read a little about it and decided to write a quick CLI in Rust to practice the notation and my Rust abilities.
+
+## How to Run
+
+You need the Rust environment installed. Then, run:
+Bash
 ```
-and it should show you the answer, replace {notation} with the notation, 
-notation example: 123*+4- 
+cargo run -- '{notation}'
+```
+The program will display the answer. Replace {notation} with your specific expression.
 
+Example notation: 1 2 3 * + 4 -
